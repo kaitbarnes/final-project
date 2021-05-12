@@ -1,28 +1,24 @@
-<h1>Front End Web Development Final Project </h1><br>
-<h2>Kait and Kyle's Cookbook</h2>
-<P>
-<b>Why this project?</b><br>
-My husband, Kyle, is an amazing cook, but his recipes are not stored in one place (there are four notebooks of recipes, many saved emails and bookmarks, and endless post it notes - it drives me nuts). Kait would like to create a website where Kyle's recipes and our favorite meals can be stored. The viewers of this page will be Kait, Kyle, and their loved ones who Kyle always cooks for. 
-<P>
-<b>Top of page</b><br>
-Hamburger menu with drop down menu to take you to three different sub-pages. For now, I'm thinking of creating pages for Kyle's sandwiches, Kyle's Mexican or Italian food, and Kyle's appetizers. There will be a button you can click to "return home" to the landing page at the top of the page.<P>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle and Kait's Cookbook</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index2.html" class="active">Kyle and Kait's Cookbook</a>
+        <a href="appetizers.html">Appetizers</a>
+        <a href="italianfood.html">Italian Food</a>
+        <a href="mexicanfood.html">Mexican Food</a>
+        <a href="sandwiches.html">Sandwiches</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
 
-<b>Index/landing page</b><br>
-An intro to Kyle and Kait's cookbook with photos of Kyle's food?<P>
-
-<b>Subpages (Each category of food type)</b><br>
-Each page has a javascript carousel with photos of food. The end user can click on the photos in the carousel and the recipe will populate below. For this project, Kait will choose 2-3 recipes for each subpage. Each page will utilize the same code, but the content/photos will differ.<P>
-
-<b>Look and feel</b><br>
-~ Design will have a similar look to Cole Hahn mockup. Clean, simple, minimalist - lots of black, white, silver, grey - let photos of food do the talking<br>
-~ Fonts - Arial, Lato, etc<br>
-~ Each subpage will have a javascript slideshow/carousel. Similar to <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">this</a> and the Corgi Carousel</lI>
-~End goal is to have a site that I can update whenever we discover a great new recipe.<P>
-
-<B>Issues to consider</B><br>
-~ Slideshow format could become unwieldy if too many recipes are added. Could we potentially do photo tiles/accordians/pop-up thing instead of carousel?<br>
-~ Not entirely sure how to code a slideshow that has content appear below. Might need to work through how to do this<br>
-~ Photo quality differs. Would it look really bad to have some high quality photos and some low quality photos?<br>
-~ Will carousel translate well to mobile devices?<br>
-
-
+      <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
