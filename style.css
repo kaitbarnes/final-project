@@ -4,6 +4,18 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: 16px;
   }
+  a {
+    color: black; 
+    text-decoration: underline;
+  }
+  a:visited {
+    color: slategray;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: gray;
+    text-decoration: none;
+  }
   .topnav {
     background-color:slategray;
     overflow: hidden;
@@ -57,3 +69,25 @@
       text-align: left;
     }
   }
+
+div.container{
+display: flex; 
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+width: 100%; 
+box-sizing: border-box;
+border: 2px solid red;
+}
+div.content {
+width: 85%; 
+  border: 2px solid purple; 
+
+}
+h1{
+  text-align: center;
+  font-family: 'Pacifico', cursive, georgia, times new roman, serif;
+  font-size: 26px; 
+  font-weight: lighter;
+  color: slategray;
+}
