@@ -18,7 +18,7 @@
   }
   h1{
     text-align: center;
-    font-family: 'Pacifico', cursive, georgia, times new roman, serif;
+    font-family: 'Pacifico', Georgia, 'Times New Roman', Times, serif;
     font-size: 26px; 
     font-weight: lighter;
     color: slategray;
@@ -46,7 +46,7 @@
   .topnav a.active {
     background-color:slategray;
     color: white;
-    font-family: 'Pacifico', cursive, georgia, times new roman, serif;
+    font-family: 'Pacifico', Georgia, 'Times New Roman', Times, serif;
     font-size: 30px; 
     font-weight: lighter;
   }
@@ -97,6 +97,7 @@ div.food-container{
   position: relative;
   margin: auto;
   border: 2px solid green; 
+
 }
 .mySlides {
   display: none;
