@@ -1,10 +1,11 @@
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appetizers</title>
+    <title>Kyle's Appetizers</title>
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
@@ -12,13 +13,113 @@
         <a href="index.html" class="active">Kyle and Kait's Cookbook</a>
         <a href="appetizers.html">Appetizers</a>
         <a href="italianfood.html">Italian Food</a>
-        <a href="mexicanfood.html">Mexican Food</a>
         <a href="sandwiches.html">Sandwiches</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
 
+      <div class ="container">
+
+
+        <div class="food-container">
+
+      
+          <!-- ///BEGIN LASAGNA /// -->
+
+          <div class="mySlides fade">
+    
+
+            <div id="content">
+              <img src="guac.png">
+
+              <center>
+                <a href="#modal1">Open Poblano Guacamole Recipe</a>
+                </center>
+                <div id="modal1">
+                  <a href="#">Close Recipe</a>
+                  <h2>Roasted Poblano Guacamole with Garlic and Parsley</h2> <P> 
+                    <B>Servings</b>: Two and a half ounces of guacamole that feeds four to six people<br>
+                    <B>Total time to cook:</b> Around 15 minutes</b> <P> 
+                    <B>Ingredients</b>
+                    <UL>
+                    <li>Two medium (about six ounces) fresh poblano chiles</li>
+                    <li>Six ounces ripe tomatoes</li>
+                    <LI>Two garlic cloves, unpeeled</li> 
+                    <LI>Three tablespoons chopped fresh flat-leaf parsley</li>
+                    <LI>Three medium-large (about 1 1/4 pounds total) ripe avocados</li>
+                    <LI>Salt</li> 
+                    <LI>Two tablespoons fresh lime juice</li> 
+                    <LI>Two tablespoons grated Mexican queso anejo or other dry grating cheese, such as Romano or Parmesan</li>
+                    <LI>A few slices of radish for garnish</li> </ul><P>
+                    <b>Cooking Instructions</b>
+                    <ol> 
+                    <LI>The poblanos, tomatoes, and garlic: Lay the poblanos, tomatoes, and garlic on a baking sheet and set 4 inches below a very hot broiler. Roast, turning every couple of minutes, until the chiles and tomatoes are soft, blistered, and blackened in spots and the garlic is soft, 12 to 13 minutes. Place the chiles in a bowl, cover with a towel, and let stand for 5 minutes, then wipe off the blackened skin. Pull or cut out the stems, seed pods, and seeds; rinse quickly to remove any stray seeds and bits of char. When the tomatoes are cool, peel off and discard their skins. Slip the papery skins off the garlic. In a mortar or food processor, make a coarse puree of the roasted garlic and poblanos (with both mortar and processor, it's best to start with the garlic, then add the poblanos); place in a large bowl. Chop the roasted tomatoes (for this recipe, it's best not to use any of the juice from the baking sheet) and add to the poblano mixture along with the parsley.</li>
+                    <LI>Finishing the guacamole: Cut the avocado lengthwise in half around the pit, twist the halves apart and remove the pits. Scoop out the flesh into the bowl with the flavorings. Using a potato masher or the back of a large spoon, coarsely mash everything together. Taste and season with salt, usually a scant teaspoon, then add enough lime juice to enliven all the flavors. Cover with plastic wrap, placing it directly on the surface, and refrigerate until you're ready to eat.</li>
+                    <LI>To serve, scoop into a decorative bowl or Mexican mortar, sprinkle with the queso anejo and stud with radish slices.</li></ol>
+                    
+                </div> <!---closes modal1 div-->
+                </div> <!---closes content div-->
+                </div> <!---closes mySlides-->
+
+              <!--- BEGIN APPETIZER TWO -->
+              
+          <div class="mySlides fade">
+
+          <img src="friedrav.png">
+
+            <div id="content2">
+
+              <center>
+                <a href="#modal2">Open Fried Ravioli Recipe</a>
+                </center>
+                <div id="modal2">
+                  <a href="#">Close Recipe</a>
+                  <h2>Fried Ravioli Recipe</h2>
+                  <B>Servings</B>: As much ravioli as you want<br>
+                  <B>Total Time to Cook</B> 10-15 minutes<P>
+                    <B>Ingredients</B>
+                <UL>
+                  <LI>Ravioli noodles</LI>
+                  <LI>A cup of buttermilk</LI>
+                  <LI>Bread crumbs or panko</LI>   
+                  <LI>Italian seasoning</LI> 
+                    </UL>
+
+                  <B>Cooking Instructions</B>
+                  <OL>
+                    <LI>Dip each ravioli noodle in buttermilk</LI>
+                    <LI>Cover each ravioli noodle in italian seasoned panko. <U>Pro Tip:</U> Wear gloves when doing this - it gets messy.</LI>
+                    <LI>Air fryer method - set air fryer to 350 degrees and cook for nine minutes.</LI>
+                    <LI>Deep fryer method - set deep fryer to 350 degrees and cook for three minutes.</LI>
+                  <LI>Once ravioli is golden brown, remove from fryer and let it stand for a minute. Add cheese to top of ravioli for extra treat. Serve with marinara sauce. </LI>
+                    
+                  </OL>
+                  </P>
+
+                </div> <!---closes modal div-->
+                </div> <!---closes content div-->
+                </div> <!---closes mySlides-->
+
+
+              </div> <!--Food Container Div Close-->
+          </div> <!---Container Div Close-->
+
+
+       
+
+
+
+        <a class ="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+        </div>
+      
       <script src="app.js" charset="utf-8"></script>
 </body>
-</html>
+</html> 
