@@ -81,13 +81,12 @@
                                *Pro Tip:</U> Reducing the Au Jus sauce will naturally thicken it. If you find the Au Jus sauce to be too oily, you can use a Fat Separator to filter out the fat.
                                <LI>
                                <B>Assemble & Serve Instant Pot French Dip:</b> <U>Optional Step:</U> While the Au Jus sauce is reducing, preheat oven to 350°F. Layer 1 loaf of french bread with slices of Swiss cheese on top. Place it in the oven until the cheese begins to melt. 
-                               Layer shredded beef and onions on top of the sandwich. Serve Instant Pot French Dip with savory umami Au Jus sauce on the side.</LI></ul></div>
+                               Layer shredded beef and onions on top of the sandwich. Serve Instant Pot French Dip with savory umami Au Jus sauce on the side.</div>
                  
                 </div> <!---closes modal1 div-->
                 </div> <!---closes content div-->
                 </div> <!---closes mySlides-->
 
-              <!---BEGIN CHEESE STEAK-->
           <div class="mySlides fade">
 
           <img src="cheesesteak.jpg">
@@ -103,7 +102,7 @@
                     <B>Servings:</b> 2 sandwiches<<br>
                     <B>Total time to cook:</b> 3-4 hours of thawing meat, around 1 hour of cooking time<P>
                     <B>Ingredients</b>
-                    <UL>
+                    <UL
                     <li>
                     1 large (1 to 1-1/2 pound) thick-cut rib-eye steak
                     Neutral cooking oil, such as canola</li>
