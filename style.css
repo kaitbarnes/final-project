@@ -15,6 +15,12 @@ a:hover {
   color: gray;
   text-decoration: none;
 }
+#kaitkyle {
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 5%;
+
+}
 h1{
   text-align: center;
   font-family: 'Pacifico', Georgia, 'Times New Roman', Times, serif;
